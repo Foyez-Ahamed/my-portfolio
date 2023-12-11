@@ -1,0 +1,35 @@
+.hero img {
+    animation: updown 3s linear infinite;
+  }
+
+  @keyframes updown {
+      0% {
+          transform: translateY(-20px);
+      }
+      50% {
+          transform: translateY(20px);
+      }
+      100% {
+          transform: translateY(-20px);
+      }
+  }
+
+   .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background : linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, #006566 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+
+  .heroBtn {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, #006566 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 8px 12px;
+  }
