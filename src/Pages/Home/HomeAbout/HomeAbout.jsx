@@ -3,6 +3,7 @@ import pic from "../../../assets/logo/aboutMe.png";
 
 const HomeAbout = () => {
   return (
+
     <div>
       <div className="lg:ml-24">
         <h1 className="text-4xl font-bold">About Me</h1>
@@ -44,6 +45,7 @@ const HomeAbout = () => {
         </div>
       </section>
     </div>
+    
   );
 };
 

@@ -9,9 +9,8 @@ const Hero = () => {
       <section className="flex flex-col lg:flex-row justify-between items-center gap-4">
         <div
           className="flex-1 lg:ml-24 space-y-4"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
+          data-aos="zoom-in-right"
+          data-aos-easing="linear"
           data-aos-duration="1500"
         >
           <h1 className="tagline text-white rounded-md">
