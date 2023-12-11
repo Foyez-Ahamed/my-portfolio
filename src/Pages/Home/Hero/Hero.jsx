@@ -10,7 +10,7 @@ const Hero = () => {
             Welcome to my portfolio
           </h1>
           <h2 className="text-4xl font-bold">
-            Hello!, I am <br /> Foyez Ahamed <br />{" "}
+            Hello! I am <br /> Foyez Ahamed <br />{" "}
             <span className="text-[18px]"> Junior Web Developer</span>{" "}
           </h2>
 
