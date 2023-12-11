@@ -22,7 +22,7 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             <button className="heroBtn flex justify-center items-center gap-2 rounded-md text-white ">
-              Resume{" "}
+             My Resume{" "}
               <MdOutlineFileDownload className="text-xl mt-1"></MdOutlineFileDownload>
             </button>
           </a>
