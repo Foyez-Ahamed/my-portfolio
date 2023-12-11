@@ -41,7 +41,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className="dark:bg-zinc-900">
       <div className="lg:ml-24">
         <h1 className="text-4xl font-bold">Contact Me</h1>
         <progress
@@ -53,7 +53,7 @@ const Contact = () => {
 
       <section className="flex flex-col lg:flex-row justify-between items-center gap-4 mt-10">
         <div className="flex-1 lg:ml-24 space-y-4">
-          <div className="shadow-md p-6 bg-gray-100">
+          <div className="shadow-md p-6 bg-gray-100 dark:bg-zinc-900">
             <ul className="mt-4 space-y-2">
               <li className="flex items-center gap-2">
                 {" "}
@@ -124,7 +124,7 @@ const Contact = () => {
           {/*  */}
           <div>
             <div className="flex justify-center">
-              <div className="shadow-md p-8 w-full md:w-[450px] lg:w-[450px] rounded-xl bg-gray-100">
+              <div className="shadow-md p-8 w-full md:w-[450px] lg:w-[450px] rounded-xl bg-gray-100 dark:bg-zinc-900">
                 <form ref={form} onSubmit={handleContact}>
                   <div className="relative">
                     <input
