@@ -53,7 +53,9 @@ const Contact = () => {
 
       <section className="flex flex-col lg:flex-row justify-between items-center gap-4 mt-10">
         <div className="flex-1 lg:ml-24 space-y-4">
-          <div className="shadow-md p-6 bg-gray-100 dark:bg-zinc-900">
+          <div className="shadow-md p-6 bg-gray-100 dark:bg-zinc-900" data-aos="zoom-in-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <ul className="mt-4 space-y-2">
               <li className="flex items-center gap-2">
                 {" "}

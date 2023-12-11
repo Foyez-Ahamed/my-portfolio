@@ -14,11 +14,16 @@ const HomeAbout = () => {
       </div>
 
       <section className="flex flex-col lg:flex-row justify-between items-center gap-4 mt-10">
-        <div className="flex-1 lg:ml-24">
+        <div className="flex-1 lg:ml-24" data-aos="zoom-in-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        >
           <img className="border-4 rounded-full" src={pic} alt="" />
         </div>
 
-        <div className="flex-1 space-y-4">
+        <div className="flex-1 space-y-4" data-aos="zoom-in-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
           <h1 className="text-4xl font-bold">Personal Overview</h1>
 
           <p className="text-[17px] text-justify lg:w-[410px]">
@@ -38,7 +43,6 @@ const HomeAbout = () => {
           </Link>
         </div>
       </section>
-      
     </div>
   );
 };
