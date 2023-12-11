@@ -74,6 +74,7 @@ const Hero = () => {
               </span>{" "}
             </a>
           </div>
+          
         </div>
 
         <div className="flex-1 hero">
