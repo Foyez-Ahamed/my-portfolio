@@ -1,7 +1,8 @@
 import heroPic from "../../../assets/Hero/hero.png";
 import "../Hero/Hero.css";
 import { MdOutlineFileDownload } from "react-icons/md";
-
+import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdOutlineFollowTheSigns } from "react-icons/md"
 const Hero = () => {
   return (
     <div>
@@ -20,8 +21,59 @@ const Hero = () => {
             href="https://drive.google.com/file/d/19ZTB0IvwEz56nv55ZslesUm8QZOAwv-d/view?usp=drive_link"
             rel="noopener noreferrer"
           >
-            <button className="heroBtn flex justify-center items-center gap-2 rounded-md text-white ">Resume <MdOutlineFileDownload className="text-xl mt-1"></MdOutlineFileDownload></button>
+            <button className="heroBtn flex justify-center items-center gap-2 rounded-md text-white ">
+              Resume{" "}
+              <MdOutlineFileDownload className="text-xl mt-1"></MdOutlineFileDownload>
+            </button>
           </a>
+
+          <div className="flex gap-4">
+
+           <h1 className="flex justify-center items-center"><MdOutlineFollowTheSigns className="text-2xl text-[#006566]"></MdOutlineFollowTheSigns></h1>
+
+          <a
+           href="https://www.linkedin.com/in/foyez-ahamed/"
+           target="_blank"
+            rel="noopener noreferrer"
+           >
+              {" "}
+              <span className="text-2xl text-[#0077B5]">
+                <FaLinkedin></FaLinkedin>
+              </span>{" "}
+            </a>
+
+            <a
+               href="https://github.com/Foyez-Ahamed"
+               target="_blank"
+                rel="noopener noreferrer"
+             >
+              {" "}
+              <span className="text-2xl text-gray-700">
+                <FaGithub></FaGithub>
+              </span>{" "}
+            </a>
+
+            <a
+               href="https://web.facebook.com/foyezahamed1435/"
+               target="_blank"
+                rel="noopener noreferrer"
+             >
+              {" "}
+              <span className="text-2xl text-[#1877F2] ">
+                <FaFacebook></FaFacebook>
+              </span>{" "}
+            </a>
+            <a
+              href="https://twitter.com/foyezahamed1435"
+              target="_blank"
+               rel="noopener noreferrer"
+             >
+              {" "}
+              <span className="text-2xl text-[#1DA1F2]">
+                <FaTwitter></FaTwitter>
+              </span>{" "}
+            </a>
+          </div>
         </div>
 
         <div className="flex-1 hero">
