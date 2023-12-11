@@ -1,5 +1,6 @@
 import heroPic from "../../../assets/Hero/hero.png";
 import "../Hero/Hero.css";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
             href="https://drive.google.com/file/d/19ZTB0IvwEz56nv55ZslesUm8QZOAwv-d/view?usp=drive_link"
             rel="noopener noreferrer"
           >
-            <button className="heroBtn rounded-md text-white ">Resume</button>
+            <button className="heroBtn flex justify-center items-center gap-2 rounded-md text-white ">Resume <MdOutlineFileDownload className="text-xl mt-1"></MdOutlineFileDownload></button>
           </a>
         </div>
 

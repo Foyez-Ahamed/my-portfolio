@@ -1,6 +1,7 @@
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
+import { HiReceiptRefund } from "react-icons/hi";
 
 const Navbar = () => {
 
@@ -94,7 +95,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <button className="btn btn-outline border-2 border-[#006566] font-medium hover:bg-transparent hover:border-transparent transition-all duration-300 transform hover:scale-105 hover:text-[#006566] ">
-              Hire Me
+              Hire Me <HiReceiptRefund className="text-xl"></HiReceiptRefund>
             </button>
           </a>
         </div>

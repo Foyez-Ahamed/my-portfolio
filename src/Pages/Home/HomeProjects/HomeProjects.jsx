@@ -20,6 +20,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 import "../HomeProjects/HomeProject.css"
+import { Link } from "react-router-dom";
 
 const HomeProjects = () => {
   return (
@@ -64,6 +65,12 @@ const HomeProjects = () => {
         <SwiperSlide><img src={project33} alt="" /></SwiperSlide>
       </Swiper>
       </div>
+
+     <Link to='/projects'>
+     <div className="mt-6 flex justify-center items-center">
+      <button className="heroBtn flex justify-center items-center gap-2 rounded-md text-white">Project Details</button>
+      </div>
+     </Link>
     </>
   );
 };
