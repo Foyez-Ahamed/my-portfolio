@@ -10,7 +10,7 @@ const Navbar = () => {
         to="/"
         className={({ isActive, isPending }) =>
           isActive
-            ? "text-[#006566] underline nav-link"
+            ? "text-[#006566]"
             : isPending
             ? "pending"
             : ""
@@ -22,7 +22,7 @@ const Navbar = () => {
       <NavLink
         to="/about"
         className={({ isActive, isPending }) =>
-          isActive ? "text-[#006566] underline" : isPending ? "pending" : ""
+          isActive ? "text-[#006566]" : isPending ? "pending" : ""
         }
       >
         <li className="text-[16px] font-medium ml-4 hover:text-[#006566] transition-all duration-300 ease-in-out">About Me</li>
@@ -31,7 +31,7 @@ const Navbar = () => {
       <NavLink
         to="/skills"
         className={({ isActive, isPending }) =>
-          isActive ? "text-[#006566] underline" : isPending ? "pending" : ""
+          isActive ? "text-[#006566]" : isPending ? "pending" : ""
         }
       >
         <li className="text-[16px] font-medium  ml-4 hover:text-[#006566] transition-all duration-300 ease-in-out">Skills</li>
@@ -40,7 +40,7 @@ const Navbar = () => {
       <NavLink
         to="/projects"
         className={({ isActive, isPending }) =>
-          isActive ? "text-[#006566] underline" : isPending ? "pending" : ""
+          isActive ? "text-[#006566]" : isPending ? "pending" : ""
         }
       >
         <li className="text-[16px] font-medium ml-4 hover:text-[#006566] transition-all duration-300 ease-in-out">Projects</li>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navbar shadow-lg rounded-md">
+      <div className="navbar rounded-md">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -93,7 +93,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn btn-outline border-2 border-[#006566] font-medium hover:bg-transparent hover:border-transparent transition-all duration-300 transform hover:scale-105 hover:text-black ">
+            <button className="btn btn-outline border-2 border-[#006566] font-medium hover:bg-transparent hover:border-transparent transition-all duration-300 transform hover:scale-105 hover:text-[#006566] ">
               Hire Me
             </button>
           </a>
