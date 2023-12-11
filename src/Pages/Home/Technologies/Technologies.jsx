@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
+import { Link } from "react-router-dom";
 
 const Technologies = () => {
   const [technologies, setTechnologies] = useState([]);
@@ -18,10 +19,9 @@ const Technologies = () => {
     fetchData();
   }, []);
 
-  console.log(technologies);
-
   return (
     <div>
+
       <div className="lg:ml-24">
         <h1 className="text-4xl font-bold">Technologies I Know</h1>
         <progress className="progress w-[100px] prog" value="20" max="100"></progress>
@@ -45,6 +45,12 @@ const Technologies = () => {
         ))}
       </div>
      </Marquee>
+
+     <Link to='/skills'>
+     <div className="mt-10 flex justify-center items-center">
+      <button className="heroBtn flex justify-center items-center gap-2 rounded-md text-white">See Skills</button>
+      </div>
+     </Link>
 
     </div>
   );

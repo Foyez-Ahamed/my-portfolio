@@ -1,0 +1,7 @@
+.submitBg {
+    background : linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, #006566 111.58%);
+}
+
+.submitBg:hover {
+    background: linear-gradient(90.21deg, rgba(40, 42, 54, 0.8) -5.91%, #2f2d32 111.58%);
+  }

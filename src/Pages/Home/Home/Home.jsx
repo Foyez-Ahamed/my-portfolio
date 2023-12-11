@@ -3,6 +3,7 @@ import Hero from "../Hero/Hero";
 import HomeProjects from "../HomeProjects/HomeProjects";
 import HomeAbout from "../HomeAbout/HomeAbout";
 import Technologies from "../Technologies/Technologies";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -25,6 +26,10 @@ const Home = () => {
       
       <div className="mt-16">
         <Technologies></Technologies>
+      </div>
+
+      <div className="mt-16">
+        <Contact></Contact>
       </div>
      
 

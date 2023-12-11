@@ -21,7 +21,7 @@ const HomeAbout = () => {
         <div className="flex-1 space-y-4">
           <h1 className="text-4xl font-bold">Personal Overview</h1>
 
-          <p className="text-[17px]">
+          <p className="text-[17px] text-justify lg:w-[410px]">
             To secure a challenging position as a web developer where my passion
             for crafting efficient and innovative web solutions can be
             leveraged. Seeking an environment that fosters continual learning
@@ -38,6 +38,7 @@ const HomeAbout = () => {
           </Link>
         </div>
       </section>
+      
     </div>
   );
 };
