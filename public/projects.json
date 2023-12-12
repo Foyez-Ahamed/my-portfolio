@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "King Gallery",
+      "type": "Inventory Management System",
+      "image": "https://i.ibb.co/cLM8mfd/screencapture-whimsical-pothos-99bd8a-netlify-app-2023-12-12-15-57-47.png",
+      "live": "https://whimsical-pothos-99bd8a.netlify.app/",
+      "details": "https://github.com/Foyez-Ahamed/inventory-management-client"
+    },
+    {
+      "id": 2,
+      "name": "Library Management",
+      "type": "Library Management System",
+      "image": "https://i.ibb.co/WVLmKcJ/screencapture-extraordinary-horse-d99f79-netlify-app-2023-12-12-15-58-14.png",
+      "live": "https://extraordinary-horse-d99f79.netlify.app/",
+      "details": "https://github.com/Foyez-Ahamed/a11-library-management-client"
+    },
+    {
+      "id": 3,
+      "name": "Automotive Care",
+      "type": "E-commerce website",
+      "image": "https://i.ibb.co/h97cgdR/screencapture-ubiquitous-nougat-44201a-netlify-app-2023-12-12-15-58-46.png",
+      "live": "https://ubiquitous-nougat-44201a.netlify.app",
+      "details": "https://github.com/Foyez-Ahamed/a10-automotive-client"
+    },
+    {
+      "id": 4,
+      "name": "Social events",
+      "type": "Event management system",
+      "image": "https://i.ibb.co/DDNgLYb/screencapture-social-events-management-925e1-web-app-2023-12-12-15-51-54.png",
+      "live": "https://social-events-management-925e1.web.app/",
+      "details": "https://github.com/Foyez-Ahamed/a9-social-event-management"
+    }
+  ]
+  

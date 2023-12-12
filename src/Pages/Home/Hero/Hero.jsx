@@ -24,6 +24,7 @@ const Hero = () => {
           <a
             className="inline-block"
             href="https://drive.google.com/file/d/19ZTB0IvwEz56nv55ZslesUm8QZOAwv-d/view?usp=drive_link"
+            download
             rel="noopener noreferrer"
           >
             <button className="heroBtn flex justify-center items-center gap-2 rounded-md text-white ">

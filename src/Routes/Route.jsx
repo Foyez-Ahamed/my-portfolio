@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home/Home";
 import About from "../Pages/About/About";
 import Skills from "../Pages/Skills/Skills";
 import Projects from "../Pages/Projects/Projects";
+import ProjectDetails from "../Pages/Projects/ProjectDetails";
 
 const Route = createBrowserRouter([
     {
@@ -30,6 +31,11 @@ const Route = createBrowserRouter([
             {
                 path : 'projects',
                 element : <Projects></Projects>
+            },
+
+            {
+                path : 'projectDetails/:id',
+                element : <ProjectDetails></ProjectDetails>
             }
         ]
     }

@@ -3,12 +3,13 @@ import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 
 const Technologies = () => {
+
   const [technologies, setTechnologies] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("technologies.json");
+        const response = await fetch("/technologies.json");
         const data = await response.json();
         setTechnologies(data);
       } catch (error) {

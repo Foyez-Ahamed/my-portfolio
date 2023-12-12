@@ -97,6 +97,7 @@ const Navbar = () => {
           <a
             href="https://drive.google.com/file/d/19ZTB0IvwEz56nv55ZslesUm8QZOAwv-d/view?usp=drive_link"
             target="_blank"
+            download
             rel="noopener noreferrer"
           >
             <button className="btn btn-outline border-2 border-[#006566] font-medium hover:bg-transparent hover:border-transparent transition-all duration-300 transform hover:scale-105 hover:text-[#006566] dark:text-white">
