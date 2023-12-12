@@ -128,7 +128,7 @@ const Contact = () => {
           {/*  */}
           <div>
             <div className="flex justify-center">
-              <div className="shadow-md p-8 w-full md:w-[450px] lg:w-[450px] rounded-xl bg-gray-100 dark:bg-zinc-900">
+              <div className="shadow-xl p-8 w-full md:w-[450px] lg:w-[450px] rounded-xl bg-gray-100 dark:bg-zinc-900">
                 <form ref={form} onSubmit={handleContact}>
                   <div className="relative">
                     <input

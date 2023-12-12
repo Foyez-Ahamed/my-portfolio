@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-import "../ProjectCard/ProjectCard.css";
 import { useEffect, useState } from "react";
 
 const ProjectCard = () => {
+
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
