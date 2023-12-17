@@ -23,7 +23,7 @@ const Hero = () => {
 
           <a
             className="inline-block"
-            href="https://drive.google.com/file/d/19ZTB0IvwEz56nv55ZslesUm8QZOAwv-d/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1c6HN_cYNu_P2TRHjNYcox02Ng0b9S5ja/view"
             target="blank"
             download
             rel="noopener noreferrer"
