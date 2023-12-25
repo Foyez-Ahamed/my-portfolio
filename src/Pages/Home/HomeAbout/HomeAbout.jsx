@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pic from "../../../assets/logo/aboutMe.png";
+import pic from "../../../assets/logo/aboutMe2.png";
 
 const HomeAbout = () => {
   return (
@@ -19,7 +19,7 @@ const HomeAbout = () => {
         data-aos-easing="linear"
         data-aos-duration="1500"
         >
-          <img className="border-4 rounded-full" src={pic} alt="" />
+          <img className="rounded-full" src={pic} alt="" />
         </div>
 
         <div className="flex-1 space-y-4" data-aos="zoom-in-right"

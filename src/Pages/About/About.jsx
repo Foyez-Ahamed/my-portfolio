@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import pic from "../../../src/assets/logo/aboutMe.png";
+import pic from "../../../src/assets/logo/aboutMe2.png";
 import Education from "../../components/Education/Education";
 
 const About = () => {
@@ -27,7 +27,7 @@ const About = () => {
         data-aos-easing="linear"
         data-aos-duration="1500"
         >
-          <img className="border-4 rounded-full" src={pic} alt="" />
+          <img className="rounded-full" src={pic} alt="" />
         </div>
 
         <div className="flex-1 space-y-4" data-aos="zoom-in-right"
